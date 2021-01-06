@@ -1,0 +1,269 @@
+header {
+  width: 100%;
+  z-index: 99999;
+}
+
+.nav-link {
+  color: #2f2f2f;
+}
+
+.btn-outline {
+  color: #2f2f2f;
+  border: 2px solid #6c63ff;
+  border-radius: 10px;
+}
+
+.btn-main {
+  background: #6c63ff;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.active {
+  border-bottom: 2px solid #6c63ff;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: normal;
+}
+
+.highlight {
+  color: #6c63ff;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #716d6f;
+}
+
+.social-logos img {
+  width: 1.5rem;
+  cursor: pointer;
+}
+
+.slider-sec,
+.universities-sec,
+.services-sec,
+.news-sec,
+.upcoming-sec,
+.countries-sec,
+.testimonial-sec,
+.news-sec,
+.upcoming-sec,
+.countries-sec,
+.testimonial-sec,
+.cta,
+footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.slider-sec {
+  margin-top: 4rem;
+  position: relative;
+}
+
+.slider-sec .img-cont img {
+  position: absolute;
+  z-index: 11;
+}
+
+.universities-sec {
+  background: #fafafa;
+}
+
+.universities-sec h3 {
+  color: #716d6f;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: x-large;
+}
+
+.universities-sec .carousel {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.carousel-indicators {
+  bottom: -3rem;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #6c63ff;
+}
+
+.active {
+  border: none;
+}
+
+.card {
+  border-radius: 1.2rem;
+  border: none;
+}
+
+.card:hover {
+  border: 3px solid #6c63ff;
+}
+
+.services-sec .services-title, .news-sec .services-title, .upcoming-sec .services-title, .countries-sec .services-title, .testimonial-sec .services-title {
+  font-weight: normal;
+  color: #2f2f2f;
+}
+
+.services-sec .card-group h4, .news-sec .card-group h4, .upcoming-sec .card-group h4, .countries-sec .card-group h4, .testimonial-sec .card-group h4, .services-sec .card-group h5, .news-sec .card-group h5, .upcoming-sec .card-group h5, .countries-sec .card-group h5, .testimonial-sec .card-group h5 {
+  font-weight: normal;
+  color: #2f2f2f;
+}
+
+.services-sec .card-group p, .news-sec .card-group p, .upcoming-sec .card-group p, .countries-sec .card-group p, .testimonial-sec .card-group p {
+  font-size: medium;
+}
+
+.services-sec .card-group .card, .news-sec .card-group .card, .upcoming-sec .card-group .card, .countries-sec .card-group .card, .testimonial-sec .card-group .card {
+  margin-bottom: 2rem;
+}
+
+.upcoming-sec .event-date-wrapper {
+  background-color: #ebedff;
+  color: #6c63ff;
+  font-weight: normal;
+  border-radius: 10px;
+  padding: 0.5rem 0;
+  font-size: large;
+  width: 100%;
+}
+
+.upcoming-sec .carousel-item {
+  padding: 0.5rem 0rem;
+}
+
+.upcoming-sec span:first-child {
+  font-size: x-large;
+  margin-bottom: -0.5rem;
+}
+
+.upcoming-sec h4 {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.upcoming-sec .time-wripper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.upcoming-sec .time-wripper span:first-child {
+  margin: auto 0.5rem auto 0;
+}
+
+.countries-sec img {
+  border-radius: 10px;
+}
+
+.testimonial-sec .card-group {
+  -ms-flex-flow: nowrap;
+      flex-flow: nowrap;
+}
+
+.cta .cta-title {
+  font-weight: normal;
+}
+
+footer {
+  background-color: #6c63ff;
+}
+
+footer p {
+  font-size: medium;
+  margin: 0;
+}
+
+footer p:last-child {
+  margin-top: 1.5rem;
+}
+
+footer p,
+footer .nav-link {
+  color: #fff;
+}
+
+@media (max-width: 767.98px) {
+  .slider-sec .img-cont {
+    display: none;
+  }
+}
+
+@media (max-width: 991.98px) {
+  h1 {
+    font-size: 2.7rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .testimonial-sec .card-group {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+  }
+}
+
+@media (min-width: 768px) {
+  .testimonial-sec .carousel-inner .carousel-item-right.active,
+  .testimonial-sec .carousel-inner .carousel-item-next {
+    -webkit-transform: translateX(40%);
+            transform: translateX(40%);
+  }
+  .testimonial-sec .carousel-inner .carousel-item-left.active,
+  .testimonial-sec .carousel-inner .carousel-item-prev {
+    -webkit-transform: translateX(-40%);
+            transform: translateX(-40%);
+  }
+  .services-sec .services-p, .news-sec .services-p, .upcoming-sec .services-p, .countries-sec .services-p, .testimonial-sec .services-p {
+    font-size: larger;
+    margin: 1.5rem 6rem 5rem 6rem;
+  }
+  footer .nav {
+    width: 50%;
+    margin: auto;
+  }
+}
+
+.testimonial-sec .carousel-inner .carousel-item-right,
+.testimonial-sec .carousel-inner .carousel-item-left {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.btn-outline:hover {
+  background: #6c63ff;
+  color: #fff;
+}
+
+.btn-main:hover {
+  border: 2px solid #6c63ff;
+  background: none;
+}
+
+.circle-figure {
+  width: 80%;
+  height: 100%;
+  background: #6c63ff;
+  border-radius: 90% 0 0;
+  position: absolute;
+  right: -6.5rem;
+  bottom: -5.5rem;
+}
+/*# sourceMappingURL=style.css.map */

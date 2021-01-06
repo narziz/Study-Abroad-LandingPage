@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="sass/style.css">
+    <script src="js/script.js"></script>
+    <title>Study Abroad</title>
+</head>
+
+<body>
+    <header class="bg-white fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <!-- logo -->
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo@2x.png" alt="logo">
+                </a>
+
+                <!-- Links -->
+                <ul class="navbar-nav justify-content-end collapse navbar-collapse" id="navbarSupportedContent">
+                    <li class="nav-item active mr-2">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link" href="#universities">Universities</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link" href="#our-services">Our Services</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link" href="#news">News</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link" href="#events">Events</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link" href="#country">Contry</a>
+                    </li>
+                </ul>
+
+                <!-- Button -->
+                <form class="form-inline ml-auto mr-2">
+                    <button class="btn btn-outline my-2 my-sm-0" type="submit">Apply</button>
+                </form>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="material-icons">menu</span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="slider-sec bg-white">
+        <div class="container pb-2">
+            <div class="row">
+                <div class="col-md-6 text-cont">
+                    <h1>We Help to <span class="highlight">Build</span> Your Dream</h1>
+                    <p class="mt-4 mb-5">We are always availed to consult on taking your higher
+                        education to the next level so you can stay competitive in the</p>
+                    <button class="btn btn-main btn-lg">Apply Online
+                        <span class="material-icons align-middle">arrow_forward</span>
+                    </button>
+                    <div class="social-logos mt-5 mb-2">
+                        <img class="mr-3" src="img/001-facebook.svg">
+                        <img class="mr-3" src="img/002-twitter.svg">
+                        <img class="mr-3" src="img/011-instagram.svg">
+                        <img class="mr-3" src="img/008-youtube.svg">
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 img-cont">
+                    <img class="img-fluid" src="img/undraw_education_f8ru.svg">
+                    <div class="circle-figure"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="universities" class="universities-sec ">
+        <div class="container pt-2">
+            <h3 class="text-center">Featured Universities</h3>
+
+            <!--Carousel Wrapper-->
+            <div id="multi-item" class="carousel slide" data-ride="carousel">
+
+                <!--Indicators-->
+                <ol class="carousel-indicators">
+                    <li data-target="#multi-item" data-slide-to="0" class="active"></li>
+                    <li data-target="#multi-item" data-slide-to="1"></li>
+                    <!-- <li data-target="#multi-item" data-slide-to="2"></li> -->
+                </ol>
+                <!--/.Indicators-->
+
+                <!--Slides-->
+                <div class="carousel-inner" role="listbox">
+
+                    <!--First slide-->
+                    <div class="carousel-item active">
+                        <div class="row row-cols-2">
+                            <div class="col-md d-flex mb-3">
+                                <img class="d-block w-75 .align-baseline" src="img/uni1.svg" />
+                            </div>
+
+                            <div class="col-md d-flex mb-3">
+                                <img class="d-block w-75 .align-baseline" src="img/uni2.svg" />
+                            </div>
+
+                            <div class="col-md d-flex mb-3">
+                                <img class="d-block w-75 .align-baseline" src="img/uni3.svg" />
+                            </div>
+
+                            <div class="col-md d-flex mb-3">
+                                <img class="d-block w-75 .align-baseline" src="img/uni4.svg" />
+                            </div>
+                        </div>
+                    </div>
+                    <!--/.First slide-->
+
+
+                    <!--Second slide-->
+                    <div class="carousel-item">
+                        <div class="row row-cols-2">
+                            <div class="col-md d-flex mb-3">
+                                <img class="d-block w-75" src="img/uni3.svg" />
+                            </div>
+
+                            <div class="col-md d-flex mb-3">
+                                <img class="d-block w-75" src="img/uni4.svg" />
+                            </div>
+
+                            <div class="col-md d-flex mb-3">
+                                <img class="d-block w-75" src="img/uni1.svg" />
+                            </div>
+
+                            <div class="col-md d-flex mb-3">
+                                <img class="d-block w-75" src="img/uni2.svg" />
+                            </div>
+                        </div>
+                    </div>
+                    <!--/.Second slide-->
+
+                </div>
+                <!--/.Slides-->
+
+            </div>
+            <!--/.Carousel Wrapper-->
+        </div>
+    </section>
+
+    <section id="our-services" class="services-sec bg-white">
+        <div class="container pt-3">
+            <h2 class="text-center services-title">Our Services</h2>
+            <p class="text-center services-p">Executive Trade International is an University Application Centre,
+                guiding Bangladeshi students to Australian, British,
+                Canadian and Irish universities!
+            </p>
+
+            <div class="card-group row-cols-lg-3 row-cols-md-2 row-cols-sm-1 justify-content-center">
+
+                <div class="col-md">
+                    <div class="card shadow-lg">
+                        <img src="img/service-career.svg" class="card-img-top w-25 pt-4 pl-4 mb-2" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">Career Counselling</h4>
+                            <p class="card-text">Maiores voluptas laboriosam non
+                                dolorum perferendis fuga repellat aut.
+                                Blanditiis quos in minus. Voluptatum
+                            </p>
+                            <a href="#" class="btn btn-link mt-4 pl-0">Learn More
+                                <span class="material-icons align-middle">arrow_forward</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md">
+                    <div class="card shadow-lg">
+                        <img src="img/service-univer.svg" class="card-img-top w-25 pt-4 pl-4 mb-2" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">University Admissions</h4>
+                            <p class="card-text">Maiores voluptas laboriosam non
+                                dolorum perferendis fuga repellat aut.
+                                Blanditiis quos in minus. Voluptatum
+                            </p>
+                            <a href="#" class="btn btn-link mt-4 pl-0">Learn More
+                                <span class="material-icons align-middle">arrow_forward</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md">
+                    <div class="card shadow-lg">
+                        <img src="img/service-visa.svg" class="card-img-top w-25 pt-4 pl-4 mb-2" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">Visa Consultancy</h4>
+                            <p class="card-text">Maiores voluptas laboriosam non
+                                dolorum perferendis fuga repellat aut.
+                                Blanditiis quos in minus. Voluptatum
+                            </p>
+                            <a href="#" class="btn btn-link mt-4 pl-0">Learn More
+                                <span class="material-icons align-middle">arrow_forward</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md">
+                    <div class="card shadow-lg">
+                        <img src="img/service-accom.svg" class="card-img-top w-25 pt-4 pl-4 mb-2" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">Accommodation</h4>
+                            <p class="card-text">Maiores voluptas laboriosam non
+                                dolorum perferendis fuga repellat aut.
+                                Blanditiis quos in minus. Voluptatum
+                            </p>
+                            <a href="#" class="btn btn-link mt-4 pl-0">Learn More
+                                <span class="material-icons align-middle">arrow_forward</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md">
+                    <div class="card shadow-lg">
+                        <img src="img/service-predepar.svg" class="card-img-top w-25 pt-4 pl-4 mb-2" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">Pre-Departure Briefing</h4>
+                            <p class="card-text">Maiores voluptas laboriosam non
+                                dolorum perferendis fuga repellat aut.
+                                Blanditiis quos in minus. Voluptatum
+                            </p>
+                            <a href="#" class="btn btn-link mt-4 pl-0">Learn More
+                                <span class="material-icons align-middle">arrow_forward</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section id="news" class="news-sec bg-light">
+        <div class="container">
+            <h2 class="text-center services-title">News</h2>
+            <p class="text-center services-p">Sunt autem nusquam hoc epicurus
+                in gravissimo bello animadversionis metu degendae praesidia
+                firmissima. Torquatos nostros? quos tu paulo ante cum teneam
+                sententiam, quid bonum esse vult.
+            </p>
+
+            <div class="card-group row-cols-lg-3 row-cols-md-2 row-cols-sm-1 justify-content-center">
+                <div class="col-md">
+                    <div class="card shadow-lg h-100">
+                        <img src="img/news-1.svg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <span class="material-icons align-middle">calendar_today</span>
+                                17 Apr 2020
+                            </p>
+                            <h5 class="card-title">Come On In. The Water’s Fine</h5>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md">
+                    <div class="card shadow-lg h-100">
+                        <img src="img/news-2.svg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <span class="material-icons align-middle">calendar_today</span>
+                                17 Apr 2020
+                            </p>
+                            <h5 class="card-title">Trump Lays Plans to Reverse</h5>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md">
+                    <div class="card shadow-lg h-100">
+                        <img src="img/news-3.svg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <span class="material-icons align-middle">calendar_today</span>
+                                17 Apr 2020
+                            </p>
+                            <h5 class="card-title">How a Little Bit of Hydra </h5>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row justify-content-center pt-5">
+                <button class="btn btn-main btn-lg">
+                    See All
+                    <span class="material-icons align-middle">arrow_forward</span>
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="events" class="upcoming-sec bg-white">
+        <div class="container">
+            <h2 class="text-center services-title">Upcoming University Events</h2>
+            <p class="text-center services-p">Sunt autem nusquam hoc epicurus in
+                gravissimo bello animadversionis metu degendae praesidia
+                firmissima. Torquatos nostros? quos tu paulo ante cum teneam
+                sententiam, quid bonum esse vult.
+            </p>
+
+            <!--Carousel Wrapper-->
+            <div id="multi-item" class="carousel slide" data-ride="carousel">
+
+                <!--Indicators-->
+                <ol class="carousel-indicators">
+                    <li data-target="#multi-item" data-slide-to="0" class="active"></li>
+                    <li data-target="#multi-item" data-slide-to="1"></li>
+                    <!-- <li data-target="#multi-item" data-slide-to="2"></li> -->
+                </ol>
+                <!--/.Indicators-->
+
+                <!--Slides-->
+                <div class="carousel-inner" role="listbox">
+
+                    <!--First slide-->
+                    <div class="carousel-item active">
+                        <div class="card-group">
+                            <div class="col-md">
+
+                                <div class="card shadow p-4">
+
+                                    <div class="row mb-4">
+                                        <div class="col-2 pr-0 d-flex justify-content-center">
+                                            <div class="event-date-wrapper m-auto">
+                                                <span class="d-block text-center">23</span>
+                                                <span class="d-block text-center">Dec</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-10 d-flex">
+                                            <h4 class="">Macquarie University, Sydney,
+                                                Australia</h4>
+                                        </div>
+                                    </div>
+
+                                    <p>Maiores voluptas laboriosam non dolorum perferendis fuga
+                                        repellat aut. Blanditiis quos in minus. Voluptatum quia quia
+                                        voluptas voluptatem vero ex possimus. Iure et consectetur
+                                    </p>
+
+                                    <div class="row">
+                                        <div class="col mt-4">
+                                            <a href="#" class="btn btn-link d-flex pl-0">Learn More
+                                                <span class="material-icons align-middle ml-2">arrow_forward</span>
+                                            </a>
+                                        </div>
+                                        <div class="col mt-4 time-wripper">
+                                            <span class="material-icons mr-2">schedule</span>
+                                            <span class="">10:00 AM - 2:00 PM</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-md">
+
+                                <div class="card shadow p-4">
+
+                                    <div class="row mb-4">
+                                        <div class="col-2 pr-0 d-flex justify-content-center">
+                                            <div class="event-date-wrapper m-auto">
+                                                <span class="d-block text-center">17</span>
+                                                <span class="d-block text-center">Oct</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-10 d-flex">
+                                            <h4 class="">Federation University, Australia</h4>
+                                        </div>
+                                    </div>
+
+                                    <p>Maiores voluptas laboriosam non dolorum perferendis fuga
+                                        repellat aut. Blanditiis quos in minus. Voluptatum quia quia
+                                        voluptas voluptatem vero ex possimus. Iure et consectetur
+                                    </p>
+
+                                    <div class="row">
+                                        <div class="col mt-4">
+                                            <a href="#" class="btn btn-link d-flex pl-0">Learn More
+                                                <span class="material-icons align-middle ml-2">arrow_forward</span>
+                                            </a>
+                                        </div>
+                                        <div class="col mt-4 time-wripper">
+                                            <span class="material-icons mr-2">schedule</span>
+                                            <span class="">10:00 AM - 2:00 PM</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.First slide-->
+                    </div>
+                    <!--/.First slide-->
+
+                    <!--Second slide-->
+                    <div class="carousel-item">
+                        <div class="card-group">
+                            <div class="col-md">
+
+                                <div class="card shadow p-4">
+
+                                    <div class="row mb-4">
+                                        <div class="col-2 pr-0 d-flex justify-content-center">
+                                            <div class="event-date-wrapper m-auto">
+                                                <span class="d-block text-center">09</span>
+                                                <span class="d-block text-center">Aug</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-10 d-flex">
+                                            <h4 class="">Macquarie University, Sydney,
+                                                Australia</h4>
+                                        </div>
+                                    </div>
+
+                                    <p>Maiores voluptas laboriosam non dolorum perferendis fuga
+                                        repellat aut. Blanditiis quos in minus. Voluptatum quia quia
+                                        voluptas voluptatem vero ex possimus. Iure et consectetur
+                                    </p>
+
+                                    <div class="row">
+                                        <div class="col mt-4">
+                                            <a href="#" class="btn btn-link d-flex pl-0">Learn More
+                                                <span class="material-icons align-middle ml-2">arrow_forward</span>
+                                            </a>
+                                        </div>
+                                        <div class="col mt-4 time-wripper">
+                                            <span class="material-icons mr-2">schedule</span>
+                                            <span class="">09:00 PM - 11:00 PM</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-md">
+
+                                <div class="card shadow p-4">
+
+                                    <div class="row mb-4">
+                                        <div class="col-2 pr-0 d-flex justify-content-center">
+                                            <div class="event-date-wrapper m-auto">
+                                                <span class="d-block text-center">31</span>
+                                                <span class="d-block text-center">Jan</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-10 d-flex">
+                                            <h4 class="">Federation University, Australia</h4>
+                                        </div>
+                                    </div>
+
+                                    <p>Maiores voluptas laboriosam non dolorum perferendis fuga
+                                        repellat aut. Blanditiis quos in minus. Voluptatum quia quia
+                                        voluptas voluptatem vero ex possimus. Iure et consectetur
+                                    </p>
+
+                                    <div class="row">
+                                        <div class="col mt-4">
+                                            <a href="#" class="btn btn-link d-flex pl-0">Learn More
+                                                <span class="material-icons align-middle ml-2">arrow_forward</span>
+                                            </a>
+                                        </div>
+                                        <div class="col mt-4 time-wripper">
+                                            <span class="material-icons mr-2">schedule</span>
+                                            <span class="">09:00 PM - 11:00 PM</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.First slide-->
+                    </div>
+                    <!--/.Second slide-->
+                </div>
+                <!--/.Carousel Wrapper-->
+            </div>
+    </section>
+
+    <section id="country" class="countries-sec bg-light">
+        <div class="container">
+            <h2 class="text-center services-title">Countries We Covered</h2>
+            <p class="text-center services-p">Sunt autem nusquam hoc epicurus in gravissimo
+                bello animadversionis metu degendae praesidia firmissima. Torquatos nostros?
+                quos tu paulo ante cum teneam sententiam, quid bonum esse vult.
+            </p>
+
+            <!--Carousel Wrapper-->
+            <div id="multi-item" class="carousel slide pb-5" data-ride="carousel">
+
+                <!--Indicators-->
+                <ol class="carousel-indicators">
+                    <li data-target="#multi-item" data-slide-to="0" class="active"></li>
+                    <li data-target="#multi-item" data-slide-to="1"></li>
+                    <li data-target="#multi-item" data-slide-to="2"></li>
+                    <li data-target="#multi-item" data-slide-to="3"></li>
+                </ol>
+                <!--/.Indicators-->
+
+                <!--Slides-->
+                <div class="carousel-inner" role="listbox">
+
+                    <!--First slide-->
+                    <div class="carousel-item active">
+                        <div class="card-group">
+
+                            <div class="col-md">
+                                <div class="card h-100">
+                                    <img src="img/country-1.svg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Study in Australia</h4>
+                                        <p class="card-text">Ut aut corporis accusantium illo ullam qui
+                                            laudantium. Maxime rerum sunt et sequi sed qui
+                                        </p>
+                                        <!-- <a href="#" class="btn btn-link mt-4 pl-0">Learn More
+                                                <span class="material-icons align-middle">arrow_forward</span>
+                                            </a> -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md">
+                                <div class="card h-100">
+                                    <img src="img/country-2.svg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Study in Canada</h4>
+                                        <p class="card-text">Ut aut corporis accusantium illo ullam qui
+                                            laudantium. Maxime rerum sunt et sequi sed qui
+                                        </p>
+                                        <!-- <a href="#" class="btn btn-link mt-4 pl-0">Learn More
+                                                <span class="material-icons align-middle">arrow_forward</span>
+                                            </a> -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md">
+                                <div class="card h-100">
+                                    <img src="img/country-3.svg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Study in Uk</h4>
+                                        <p class="card-text">Ut aut corporis accusantium illo ullam qui
+                                            laudantium. Maxime rerum sunt et sequi sed qui
+                                        </p>
+                                        <!-- <a href="#" class="btn btn-link mt-4 pl-0">Learn More
+                                                <span class="material-icons align-middle">arrow_forward</span>
+                                            </a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/.First slide-->
+
+                    <!--Second slide-->
+                    <div class="carousel-item">
+                        <div class="card-group">
+
+                            <div class="col-md">
+                                <div class="card h-100">
+                                    <img src="img/country-1.svg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Study in Australia</h4>
+                                        <p class="card-text">Ut aut corporis accusantium illo ullam qui
+                                            laudantium. Maxime rerum sunt et sequi sed qui
+                                        </p>
+                                        <!-- <a href="#" class="btn btn-link mt-4 pl-0">Learn More
+                                                <span class="material-icons align-middle">arrow_forward</span>
+                                            </a> -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md">
+                                <div class="card h-100">
+                                    <img src="img/country-2.svg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Study in Canada</h4>
+                                        <p class="card-text">Ut aut corporis accusantium illo ullam qui
+                                            laudantium. Maxime rerum sunt et sequi sed qui
+                                        </p>
+                                        <!-- <a href="#" class="btn btn-link mt-4 pl-0">Learn More
+                                                <span class="material-icons align-middle">arrow_forward</span>
+                                            </a> -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md">
+                                <div class="card h-100">
+                                    <img src="img/country-3.svg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Study in Uk</h4>
+                                        <p class="card-text">Ut aut corporis accusantium illo ullam qui
+                                            laudantium. Maxime rerum sunt et sequi sed qui
+                                        </p>
+                                        <!-- <a href="#" class="btn btn-link mt-4 pl-0">Learn More
+                                                <span class="material-icons align-middle">arrow_forward</span>
+                                            </a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/.Second slide-->
+
+                    <!--Third slide-->
+                    <div class="carousel-item">
+                        <div class="card-group">
+
+                            <div class="col-md">
+                                <div class="card h-100">
+                                    <img src="img/country-1.svg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Study in Australia</h4>
+                                        <p class="card-text">Ut aut corporis accusantium illo ullam qui
+                                            laudantium. Maxime rerum sunt et sequi sed qui
+                                        </p>
+                                        <!-- <a href="#" class="btn btn-link mt-4 pl-0">Learn More
+                                                <span class="material-icons align-middle">arrow_forward</span>
+                                            </a> -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md">
+                                <div class="card h-100">
+                                    <img src="img/country-2.svg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Study in Canada</h4>
+                                        <p class="card-text">Ut aut corporis accusantium illo ullam qui
+                                            laudantium. Maxime rerum sunt et sequi sed qui
+                                        </p>
+                                        <!-- <a href="#" class="btn btn-link mt-4 pl-0">Learn More
+                                                <span class="material-icons align-middle">arrow_forward</span>
+                                            </a> -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md">
+                                <div class="card h-100">
+                                    <img src="img/country-3.svg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Study in Uk</h4>
+                                        <p class="card-text">Ut aut corporis accusantium illo ullam qui
+                                            laudantium. Maxime rerum sunt et sequi sed qui
+                                        </p>
+                                        <!-- <a href="#" class="btn btn-link mt-4 pl-0">Learn More
+                                                <span class="material-icons align-middle">arrow_forward</span>
+                                            </a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/.Third slide-->
+
+                    <!--Forth slide-->
+                    <div class="carousel-item">
+                        <div class="card-group">
+
+                            <div class="col-md">
+                                <div class="card h-100">
+                                    <img src="img/country-1.svg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Study in Australia</h4>
+                                        <p class="card-text">Ut aut corporis accusantium illo ullam qui
+                                            laudantium. Maxime rerum sunt et sequi sed qui
+                                        </p>
+                                        <!-- <a href="#" class="btn btn-link mt-4 pl-0">Learn More
+                                                <span class="material-icons align-middle">arrow_forward</span>
+                                            </a> -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md">
+                                <div class="card h-100">
+                                    <img src="img/country-2.svg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Study in Canada</h4>
+                                        <p class="card-text">Ut aut corporis accusantium illo ullam qui
+                                            laudantium. Maxime rerum sunt et sequi sed qui
+                                        </p>
+                                        <!-- <a href="#" class="btn btn-link mt-4 pl-0">Learn More
+                                                <span class="material-icons align-middle">arrow_forward</span>
+                                            </a> -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md">
+                                <div class="card h-100">
+                                    <img src="img/country-3.svg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Study in Uk</h4>
+                                        <p class="card-text">Ut aut corporis accusantium illo ullam qui
+                                            laudantium. Maxime rerum sunt et sequi sed qui
+                                        </p>
+                                        <!-- <a href="#" class="btn btn-link mt-4 pl-0">Learn More
+                                                <span class="material-icons align-middle">arrow_forward</span>
+                                            </a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/.Forth slide-->
+                </div>
+                <!--/.Slides-->
+            </div>
+            <!--/.Carousel Wrapper-->
+        </div>
+    </section>
+
+    <section id="testimonial" class="testimonial-sec bg-white">
+        <div class="container">
+            <h2 class="text-center services-title">Testimonial</h2>
+            <p class="text-center services-p">Torquem detraxit hosti et quidem faciunt, ut et
+                negent satis esse appetendum, alterum. Si sine causa? quae fuerit causa,
+                mox videro; interea hoc epicurus in liberos.
+            </p>
+
+            <div id="carousel-example-multi" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-multi" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-multi" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-multi" data-slide-to="2"></li>
+                    <!-- <li data-target="#carousel-example-multi" data-slide-to="3"></li> -->
+                </ol>
+
+
+                <div class="carousel-inner pt-3 pb-3" role="listbox">
+
+                    <div id="1" class="carousel-item  bg-white active">
+                        <div class="card-group">
+                            <div class="col-lg-5 col-md-12">
+                                <div class="card shadow h-100 p-4">
+                                    <div class="row mb-4">
+                                        <div class="col-3">
+                                            <img src="img/testi-1.svg" class="card-img-top" alt="..." />
+                                        </div>
+                                        <div class="col-9">
+                                            <h4 class="">Harrison Phillips</h4>
+                                            <span class="d-block">Reporter</span>
+                                        </div>
+                                    </div>
+
+                                    <p>Nisi cumque in necessitatibus molestiae eaque
+                                        excepturi ab. Laboriosam ipsam voluptatem
+                                        voluptatibus labore quam nihil. Quasi occaecati quos
+                                        ratione quia aut molestiae velit et. Voluptatem id ea
+                                        dicta inventore et quo impedit repudiandae. Qui.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div id="2" class="carousel-item bg-white">
+                        <div class="card-group">
+                            <div class="col-lg-5 col-md-12">
+                                <div class="card shadow h-100 p-4">
+                                    <div class="row mb-4">
+                                        <div class="col-3">
+                                            <img src="img/testi-2.svg" class="card-img-top" alt="..." />
+                                        </div>
+                                        <div class="col-9">
+                                            <h4 class="">Ainara Vergara</h4>
+                                            <span class="d-block">Landscape Architect
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <p>Aut consectetur voluptas. Voluptatem minus quo
+                                        voluptas in nulla iste. Fugiat alias sit sed dolorem quo.
+                                        Qui praesentium et doloribus minima neque. Facere
+                                        debitis sed est suscipit velit reprehenderit. Dolores
+                                        aliquid dolore consequuntur ex.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div id="3" class="carousel-item bg-white">
+                        <div class="card-group">
+                            <div class="col-lg-5 col-md-12">
+                                <div class="card shadow h-100 p-4">
+                                    <div class="row mb-4">
+                                        <div class="col-3">
+                                            <img src="img/testi-3.svg" class="card-img-top" alt="..." />
+                                        </div>
+                                        <div class="col-9">
+                                            <h4 class="">Niek Bove</h4>
+                                            <span class="d-block">Senior Developer</span>
+                                        </div>
+                                    </div>
+
+                                    <p>Rem quia possimus eum adipisci autem aut sunt laboriosam
+                                        autem. Qui soluta ut aut excepturi dolorem laborum ut.
+                                        Qui alias aut provident quas illo. Eveniet debitis totam
+                                        quaerat. Enim voluptatem fuga qui. Numquam iusto vero ipsa
+                                        eveniet iusto.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- <div id="4" class="carousel-item bg-white">
+                            <div class="card-group">
+                                <div class="col-lg-5 col-md-12">
+                                    <div class="card shadow h-100 p-4">
+                                        <div class="row mb-4">
+                                            <div class="col-3">
+                                                <img src="img/service-career.svg" class="card-img-top" alt="..." />
+                                            </div>
+                                            <div class="col-9">
+                                                <h4 class="">Harrison Phillips</h4>
+                                                <span class="d-block">Reporter</span>
+                                            </div>
+                                        </div>
+    
+                                        <p>Nisi cumque in necessitatibus molestiae eaque
+                                            excepturi ab. Laboriosam ipsam voluptatem
+                                            voluptatibus labore quam nihil. Quasi occaecati quos
+                                            ratione quia aut molestiae velit et. Voluptatem id ea
+                                            dicta inventore et quo impedit repudiandae. Qui.
+                                        </p>
+    
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div> -->
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="cta bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <h2 class="cta-title">Ready to chase your dreams?</h2>
+                </div>
+                <div class="col-sm">
+                    <button class="btn btn-main btn-lg btn-block">Apply Online
+                        <span class="material-icons align-middle">arrow_forward</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <a href="#">
+                        <img class="mb-3" src="img/logo-white.png" alt="logo">
+                    </a>
+
+                    <p>Concord Royal Court (3rd floor) </p>
+                    <p>Dhanmondi, Dhaka 1209, Bangladesh.</p>
+
+                    <p>© 2020 Executive Trade International.</p>
+                </div>
+
+                <div class="col-sm">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Universities</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Our Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">News</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-sm">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Privacy Policy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Terms of Service</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>

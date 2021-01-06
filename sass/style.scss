@@ -1,0 +1,300 @@
+@import "variables";
+
+header{
+    // position: fixed;
+    width: 100%;
+    z-index: 99999;
+}
+
+.nav-link {
+    color: $main-text;
+}
+.btn-outline{
+    color: $main-text;
+    border: $border-2;
+    border-radius: $radius;
+}
+.btn-main{
+    background: $main-color;
+    color: $white;
+    border-radius: $radius;
+}
+.active{
+    border-bottom: $border-2;
+}
+
+h1{
+    font-size: 3.5rem;
+    font-weight: normal;
+}
+.highlight {
+    color: $main-color;
+}
+p{
+    font-size: 1.2rem;
+    color: $secondary-text;
+}
+
+.social-logos{
+    img{
+        width: 1.5rem;
+        cursor: pointer;
+    }
+}
+
+.slider-sec,
+.universities-sec,
+.services-sec,
+.news-sec,
+.upcoming-sec,
+.countries-sec,
+.testimonial-sec,
+.cta,
+footer{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.slider-sec{
+    margin-top: 4rem;
+    position: relative;
+
+    .img-cont img{
+        position: absolute;
+        z-index: 11;
+    }
+}
+.universities-sec{
+    background: $gray-bg;
+    
+
+    h3{
+        color: $secondary-text;
+        text-transform: uppercase;
+        font-weight: normal;
+        font-size: x-large;
+    }
+
+    & .carousel {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    
+}
+
+.carousel-indicators{
+    bottom: -3rem;
+
+    & li {
+        width: 10px;
+        height: 10px;
+        border-radius: $radius-circle;
+        background-color: $main-color;
+    }
+
+}
+
+.active{
+    border: none;
+}
+
+.card{
+    border-radius: 1.2rem;
+    border: none;
+}
+.card:hover{
+    border: 3px solid $main-color;
+}
+.services-sec{
+
+    .services-title{
+        font-weight: normal;
+        color: $main-text;
+    }
+
+    .card-group{
+
+        h4, h5{
+            font-weight: normal;
+            color: $main-text;
+        }
+    
+        p{
+            font-size: medium;
+        }
+
+        .card{
+            margin-bottom: 2rem;
+        }
+
+    }
+
+}
+
+.news-sec,
+.upcoming-sec,
+.countries-sec,
+.testimonial-sec{
+    @extend .services-sec;
+}
+
+.upcoming-sec{
+    .event-date-wrapper{
+        background-color: $secondary-bg;
+        color: $main-color;
+        font-weight: normal;
+        border-radius: $radius;
+        padding: 0.5rem 0;
+        font-size: large;
+        width: 100%;
+    }
+
+    .carousel-item{
+        padding: 0.5rem 0rem;
+    }
+
+    span:first-child{
+        font-size: x-large;
+        margin-bottom: -0.5rem;
+    }
+    
+    h4{
+        align-self: center;
+    }
+
+    .time-wripper{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        span:first-child{
+            margin: auto 0.5rem auto 0;
+        }
+    }
+}
+
+.countries-sec{
+
+    img{
+        border-radius: $radius;
+    }
+}
+
+.testimonial-sec{
+    .card-group{
+        flex-flow: nowrap;
+    }
+}
+
+.cta{
+    .cta-title{
+        font-weight: normal;
+    }
+}
+
+footer{
+    background-color: $main-color;
+    
+    p{
+        font-size: medium;
+        margin: 0;
+    }
+    p:last-child{
+        margin-top: 1.5rem;
+    }
+
+    p,
+    .nav-link{
+        color: $white;
+    }
+}
+
+@media (max-width: 767.98px) { 
+    .slider-sec{
+        .img-cont{
+            display: none;
+        }
+    }
+
+    
+
+}
+
+@media (max-width: 991.98px) { 
+    h1{
+        font-size: 2.7rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+
+    .testimonial-sec{
+        .card-group{
+            flex-flow: row wrap;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    
+    .testimonial-sec{
+        .carousel-inner .carousel-item-right.active,
+        .carousel-inner .carousel-item-next {
+          transform: translateX(40%);
+        }
+        
+        .carousel-inner .carousel-item-left.active, 
+        .carousel-inner .carousel-item-prev {
+          transform: translateX(-40%);
+        }
+    }
+
+    .services-sec{
+        
+        .services-p{
+            font-size: larger;
+            margin: 1.5rem 6rem 5rem 6rem;
+        }
+    }
+
+    
+
+    footer{
+        .nav{
+            width: 50%;
+            margin: auto ;
+        }
+    }
+
+
+    
+}
+
+.testimonial-sec{
+    .carousel-inner .carousel-item-right,
+    .carousel-inner .carousel-item-left{ 
+      transform: translateX(0);
+    }
+}
+
+
+.btn-outline:hover{
+    // border: $border-2;
+    background: $main-color;
+    color: $white;
+}
+
+.btn-main:hover{
+    border: $border-2;
+    background: none;
+}
+
+.circle-figure{
+    width: 80%;
+    height: 100%;
+    background: $main-color;
+    border-radius: 90% 0 0;
+    position: absolute;
+    right: -6.5rem;
+    bottom: -5.5rem;
+}
